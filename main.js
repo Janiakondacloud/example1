@@ -25,7 +25,7 @@ function init(){
 }
 const onWindowResize = () =>{
   camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectMatrix();
+  camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth,window.innerHeight);
 }
 const animate = ()=>{
